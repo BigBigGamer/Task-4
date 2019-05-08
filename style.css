@@ -1,0 +1,47 @@
+html{
+  align-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+body{
+  padding-top: 100px;
+  height: 100vh;
+  background: rgb(159, 252, 255);    
+}
+.chess_table{
+    border-spacing: 0px;
+    margin: 50px auto 50px auto;
+}
+.white{
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background: rgba(255,255,255,1);
+}
+.black{
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background: rgba(40,40,40,1);  
+}
+.blue{
+  cursor: pointer;
+  background:rgb(64, 103, 193);  
+}
+.green{
+  cursor: pointer;
+  background:rgb(94, 204, 94);  
+}
+.bordercell{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 40px;
+  height: 40px;
+  background: rgb(103, 222, 196);
+}
+.clear{
+    cursor: pointer;
+    text-align: center;
+    color:rgba(40,40,40,1);
+}
